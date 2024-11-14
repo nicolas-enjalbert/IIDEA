@@ -16,7 +16,6 @@
 #' @importFrom stats p.adjust
 #' @importFrom utils zip str write.csv data
 #' @importFrom stringr str_remove_all
-#' @importFrom SummarizedExperiment assays colData
 #' @importFrom dplyr select filter
 #' @importFrom DT renderDT
 #' @import R.cache

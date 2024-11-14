@@ -11,7 +11,6 @@ utils::globalVariables(c("RNAseq_blca", "RNAseq_blca_GO"))
 #'
 #' @export
 #'
-#' @import sanssouci.data
 #' @import sanssouci
 #'
 #' @examples
