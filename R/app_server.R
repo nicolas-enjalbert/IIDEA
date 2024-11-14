@@ -6,7 +6,6 @@
 #'
 #' @return a server instance
 #' @export
-#' @import sanssouci.data
 #' @import sanssouci
 #' @importFrom stats predict
 #' @import shiny
@@ -22,10 +21,10 @@
 #' @importFrom DT renderDT
 #' @import R.cache
 app_server <- function(input, output, session) {
-  data(expr_ALL, package = "sanssouci.data", envir = environment())
-  data(expr_ALL_GO, package = "sanssouci.data", envir = environment())
-  data(RNAseq_blca, package = "sanssouci.data", envir = environment())
-  data(RNAseq_blca_GO, package = "sanssouci.data", envir = environment())
+  # data(expr_ALL, package = "sanssouci.data", envir = environment())
+  # data(expr_ALL_GO, package = "sanssouci.data", envir = environment())
+  # data(RNAseq_blca, package = "sanssouci.data", envir = environment())
+  # data(RNAseq_blca_GO, package = "sanssouci.data", envir = environment())
 
   # size of input data sets
   options(shiny.maxRequestSize = 1024^3)
